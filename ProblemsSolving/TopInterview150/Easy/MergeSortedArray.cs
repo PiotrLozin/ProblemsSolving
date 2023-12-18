@@ -1,4 +1,4 @@
-﻿namespace ProblemsSolving
+﻿namespace ProblemsSolving.TopInterview150.Easy
 {
     public class MergeSortedArray
     {

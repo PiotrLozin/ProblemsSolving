@@ -1,4 +1,4 @@
-﻿namespace ProblemsSolving
+﻿namespace ProblemsSolving.TopInterview150.Easy
 {
     public class RemoveElement
     {
@@ -14,13 +14,11 @@
 
     //public static void Main(string[] args)
     //{
-    //    int[] nums1 = { 1, 2, 3, 0, 0, 0 };
-    //    int[] nums2 = { 2, 5, 6 };
+    //    int[] nums1 = { 3, 2, 2, 3 };
 
-    //    int m = 3;
-    //    int n = 3;
+    //    int val = 3;
 
-    //    MergeSortedArray.Merge(ref nums1, m, nums2, n);
+    //    RemoveElement.removeElement(ref nums1, val);
 
     //    foreach (int element in nums1)
     //    {

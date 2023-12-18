@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZBGu2pT4QlyFGwLfTHKRuoLAXrkB0Z14L8zDAyi2Ck+STyU2kEmNV4bYby93BRqxOUh5v3OQyODavuxdLyeVOw==",
+  "dgSpecHash": "IBZfegKZVoWz2L8m+sS3nJEGrZ2MkgYNUSJ5/RnA/jnd8FQv7xj3Yfjf9hAjhoiBjNkAEdVJX66j4DFEnDkOwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Piotr\\Desktop\\Nauka\\ProblemsSolving\\ProblemsSolving\\ProblemsSolving.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Piotr\\.nuget\\packages\\xunit.assert\\2.6.3\\xunit.assert.2.6.3.nupkg.sha512"
+  ],
   "logs": []
 }
