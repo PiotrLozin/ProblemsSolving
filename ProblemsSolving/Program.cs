@@ -6,10 +6,10 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] nums = { 1, 1, 2 }; // Input array
-        int[] expectedNums = { 1, 2 }; // The expected answer with correct length
+        int[] nums = { 0, 0, 1, 1, 1, 1, 2, 3, 3 }; // Input array
+        int[] expectedNums = { 0, 0, 1, 1, 2, 3, 3 }; // The expected answer with correct length
         
-        int k = RemoveDuplicatesFromSortedArray.removeDuplicates(ref nums); // Calls your implementation
+        int k = RemoveDuplicatesFromSortedArrayII.removeDuplicatesII(ref nums); // Calls your implementation
 
         Assert.True(k == expectedNums.Length);
         for (int i = 0; i < k; i++)
