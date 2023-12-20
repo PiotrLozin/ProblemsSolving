@@ -6,15 +6,10 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] nums = { 0, 0, 1, 1, 1, 1, 2, 3, 3 }; // Input array
-        int[] expectedNums = { 0, 0, 1, 1, 2, 3, 3 }; // The expected answer with correct length
-        
-        int k = RemoveDuplicatesFromSortedArrayII.removeDuplicatesII(ref nums); // Calls your implementation
+        int[] nums = { 2, 2, 1, 1, 1, 2, 2 }; // Input array
 
-        Assert.True(k == expectedNums.Length);
-        for (int i = 0; i < k; i++)
-        {
-            Assert.Equal(nums[i], expectedNums[i]);
-        }
+        int k = MajorityElement.majorityElement(ref nums); // Calls your implementation
+
+        Assert.True(k == 2);
     }
 }
