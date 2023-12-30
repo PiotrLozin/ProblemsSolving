@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace ProblemsSolving.TopInterview150.Easy
+namespace ProblemsSolving.TopInterview150.Medium
 {
     public class RotateArray
     {
