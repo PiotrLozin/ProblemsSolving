@@ -7,11 +7,8 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        RandomizedSet randomizedSet = new RandomizedSet();
-        Assert.True(randomizedSet.Insert(1));
-        Assert.True(randomizedSet.Insert(2));
-        Assert.True(!randomizedSet.Insert(2));
-        Assert.True(randomizedSet.Remove(2));
-        Assert.Equal(1, randomizedSet.GetRandom());
+        Assert.Equal(3, RomanToInteger.romanToInteger("III"));
+        Assert.Equal(58, RomanToInteger.romanToInteger("LVIII"));
+        Assert.Equal(1994, RomanToInteger.romanToInteger("MCMXCIV"));
     }
 }
