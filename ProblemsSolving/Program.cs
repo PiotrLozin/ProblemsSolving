@@ -7,8 +7,12 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        Assert.Equal(3, RomanToInteger.romanToInteger("III"));
-        Assert.Equal(58, RomanToInteger.romanToInteger("LVIII"));
-        Assert.Equal(1994, RomanToInteger.romanToInteger("MCMXCIV"));
+        int[] ints = { 1, 2, 3, 4 };
+        int[] expectedInts = { 24, 12, 8, 6 };
+        Assert.Equal(expectedInts, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints));
+
+        int[] ints1 = { -1, 1, 0, -3, 3 };
+        int[] expectedInts1 = { 0, 0, 9, 0, 0 };
+        Assert.Equal(expectedInts1, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints1));
     }
 }
