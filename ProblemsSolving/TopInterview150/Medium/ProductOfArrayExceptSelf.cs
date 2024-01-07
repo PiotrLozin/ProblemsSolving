@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProblemsSolving.TopInterview150.Medium;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -35,3 +36,14 @@ namespace ProblemsSolving.TopInterview150.Medium
         }
     }
 }
+
+//public static void Main(string[] args)
+//{
+//    int[] ints = { 1, 2, 3, 4 };
+//    int[] expectedInts = { 24, 12, 8, 6 };
+//    Assert.Equal(expectedInts, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints));
+
+//    int[] ints1 = { -1, 1, 0, -3, 3 };
+//    int[] expectedInts1 = { 0, 0, 9, 0, 0 };
+//    Assert.Equal(expectedInts1, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints1));
+//}

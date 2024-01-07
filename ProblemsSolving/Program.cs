@@ -7,12 +7,12 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] ints = { 1, 2, 3, 4 };
-        int[] expectedInts = { 24, 12, 8, 6 };
-        Assert.Equal(expectedInts, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints));
+        int[] gas = { 1, 2, 3, 4, 5 };
+        int[] cost = { 3, 4, 5, 1, 2 };
+        Assert.Equal(3, GasStation.gasStation(gas, cost));
 
-        int[] ints1 = { -1, 1, 0, -3, 3 };
-        int[] expectedInts1 = { 0, 0, 9, 0, 0 };
-        Assert.Equal(expectedInts1, ProductOfArrayExceptSelf.productOfArrayExceptSelf(ints1));
+        int[] gas1 = { 2,3, 4 };
+        int[] cost1 = { 3, 4, 3 };
+        Assert.Equal(-1, GasStation.gasStation(gas1, cost1));
     }
 }
