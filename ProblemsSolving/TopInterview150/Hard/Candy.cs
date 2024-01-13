@@ -11,7 +11,7 @@ namespace ProblemsSolving.TopInterview150.Hard
 {
     public class Candy
     {
-        public int candy(int[] ratings)
+        public static int candy(int[] ratings)
         {
             int n = ratings.Length;
             int[] candies = new int[n];
@@ -39,13 +39,8 @@ namespace ProblemsSolving.TopInterview150.Hard
 
     //public static void Main(string[] args)
     //{
-    //    int[] gas = { 1, 2, 3, 4, 5 };
-    //    int[] cost = { 3, 4, 5, 1, 2 };
-    //    Assert.Equal(3, GasStation.gasStation(gas, cost));
-
-    //    int[] gas1 = { 2, 3, 4 };
-    //    int[] cost1 = { 3, 4, 3 };
-    //    Assert.Equal(-1, GasStation.gasStation(gas1, cost1));
+    //    int[] ratings = { 1, 2, 87, 87, 87, 2, 1 };
+    //    Assert.Equal(13, Candy.candy(ratings));
     //}
 }
 

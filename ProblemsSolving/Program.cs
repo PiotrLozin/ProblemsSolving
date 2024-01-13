@@ -8,7 +8,8 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] ratings = { 1, 2, 87, 87, 87, 2, 1 };
-        Assert.Equal(13, Candy.candy(ratings));
+        Assert.Equal("III", IntegerToRoman.integerToRoman(3));
+        Assert.Equal("LVIII", IntegerToRoman.integerToRoman(58));
+        Assert.Equal("MCMXCIV", IntegerToRoman.integerToRoman(1994));
     }
 }
