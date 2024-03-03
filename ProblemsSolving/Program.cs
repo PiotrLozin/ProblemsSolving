@@ -8,8 +8,7 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        Assert.Equal("III", IntegerToRoman.integerToRoman(3));
-        Assert.Equal("LVIII", IntegerToRoman.integerToRoman(58));
-        Assert.Equal("MCMXCIV", IntegerToRoman.integerToRoman(1994));
+        int[] height = { 4, 2, 3 };
+        Assert.Equal(1,TrappingRainWatter.trappingRainWatter(height));
     }
 }
