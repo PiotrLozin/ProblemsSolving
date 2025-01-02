@@ -32,10 +32,12 @@ namespace ProblemsSolving.TopInterview150.Medium
             {
                 if (query[0] - 1 < 0) 
                 {
-                    query[0]++;
+                    vowelStrings[j] = numeric[query[1]];
                 }
-
-                vowelStrings[j] = numeric[query[1]] - numeric[query[0] - 1];
+                else
+                {
+                    vowelStrings[j] = numeric[query[1]] - numeric[query[0] - 1];
+                }
                 j++;
             }
 
