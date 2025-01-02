@@ -8,7 +8,9 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] height = { 4, 2, 3 };
-        Assert.Equal(1,TrappingRainWatter.trappingRainWatter(height));
+        string[] words = { "aba", "bcb", "ece", "aa", "e" };
+        int[][] queries = { new int[] { 0, 2 }, new int[] { 1, 4 }, new int[] { 1, 1 } };
+
+        Assert.Equal(new int[] { 2, 3, 0}, VowelStringsProblem.VowelStrings(words, queries));
     }
 }
