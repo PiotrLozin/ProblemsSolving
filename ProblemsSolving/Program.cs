@@ -8,8 +8,8 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        int[] nums = { 10, 4, -8, 7 };
+        string s = "bbcbaba";
 
-        Assert.Equal(2, NumberOfWaysToSplitArray.WaysToSplitArray(nums));
+        Assert.Equal(4, PalindromicSubsequences.CountPalindromicSubsequence(s));
     }
 }
