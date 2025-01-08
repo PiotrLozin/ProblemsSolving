@@ -8,8 +8,8 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        string s = "bbcbaba";
+        string[] s = { "a", "aba", "ababa", "aa" };
 
-        Assert.Equal(4, PalindromicSubsequences.CountPalindromicSubsequence(s));
+        Assert.Equal(4, CountPrefixAndSuffixPairs.CountPrefixSuffixPairs(s));
     }
 }
