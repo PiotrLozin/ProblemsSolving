@@ -15,17 +15,10 @@ public class Program
 
     public static void Main(string[] args)
     {
-        int result = 4;
-        
-        IList<IList<int>> arrays = new List<IList<int>>();
-        IList<int> newResult1 = new List<int> { 1,2,3 };
-        IList<int> newResult2 = new List<int> { 4,5 };
-        IList<int> newResult3 = new List<int> { 1,2,3 };
-        arrays.Add(newResult1);
-        arrays.Add(newResult2);
-        arrays.Add(newResult3);
+        string s = "))()))";
+        string locked = "010100";
 
 
-        Assert.Equal(result, MaximumDistanceInArrays.MaxDistance(arrays));
+        Assert.Equal(true, CheckIfParenthesesStringCanBeValid.CanBeValid(s, locked));
     }
 }
