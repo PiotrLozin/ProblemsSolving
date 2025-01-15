@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NUnit" Version="4.3.2" />
     <PackageReference Include="xunit.assert" Version="2.6.3" />
   </ItemGroup>
 

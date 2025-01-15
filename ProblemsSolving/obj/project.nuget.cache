@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ugr9fhsNZQ=",
+  "dgSpecHash": "i15Axsr5s8k=",
   "success": true,
   "projectFilePath": "C:\\Users\\Piotr\\Desktop\\Nauka\\ProblemsSolving\\ProblemsSolving\\ProblemsSolving.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Piotr\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512",
     "C:\\Users\\Piotr\\.nuget\\packages\\xunit.assert\\2.6.3\\xunit.assert.2.6.3.nupkg.sha512"
   ],
   "logs": []
