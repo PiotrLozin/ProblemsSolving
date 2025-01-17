@@ -2,7 +2,7 @@
 using ProblemsSolving.TopInterview150.Easy;
 using ProblemsSolving.TopInterview150.Hard;
 using ProblemsSolving.TopInterview150.Medium;
-using Xunit;
+using NUnit;
 
 public class Program
 {
@@ -15,10 +15,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-        string s = "))()))";
-        string locked = "010100";
-
-
-        Assert.Equal(true, CheckIfParenthesesStringCanBeValid.CanBeValid(s, locked));
+        NeighboringBitwiseXorTests neighboringBitwiseXorTests = new NeighboringBitwiseXorTests();
+        neighboringBitwiseXorTests.FirstTest();
     }
 }
